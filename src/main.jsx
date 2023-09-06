@@ -1,10 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
+import Home from './pages/Home.jsx'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import A_propos from './pages/A_propos';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    {/* <Home /> */}
+    <A_propos />
   </React.StrictMode>,
 )
